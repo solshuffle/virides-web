@@ -6,8 +6,10 @@
 .pnp.js
 
 # next.js
-/.next/
+/.next
 /out/
+
+
 
 # dotenv environment variables file
 .env
@@ -43,11 +45,6 @@ yarn-error.log*
 chrome-profiler-events*.json
 speed-measure-plugin*.json
 
-#cypress
-/cypress/screenshots
-/cypress/videos
-/junit.xml
-
 #service workers
 /public/sw.js
 /public/workbox-*
@@ -74,7 +71,3 @@ coverage-jest
 jest-coverage
 reports
 .nyc_output/out.json
-
-#wtf?
-playground.tsx
-playgorund.js
